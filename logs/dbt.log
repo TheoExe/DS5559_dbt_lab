@@ -1,0 +1,40 @@
+
+
+============================== 2023-04-26 02:15:56.880705 | 08b53fbf-c0f5-432a-9647-9d12316d901d ==============================
+[0m02:15:56.880705 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:15:56.886108 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/mrtexas/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'first_project', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m02:15:56.889742 [debug] [MainThread]: Tracking: tracking
+[0m02:15:56.901506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa85337bf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa852f07a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa852f07c70>]}
+[0m02:15:56.907304 [info ] [MainThread]: Creating dbt configuration folder at /home/mrtexas/.dbt
+[0m02:15:57.030307 [debug] [MainThread]: Starter project path: /mnt/c/Users/tbrai/Desktop/UVA/Coursework/DS5559/Labs/Lab 11/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m02:41:21.616504 [info ] [MainThread]: Profile first_project written to /home/mrtexas/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:41:21.622575 [info ] [MainThread]: 
+Your new dbt project "first_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:41:21.626763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa85337bf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa852f07640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa852f076d0>]}
+[0m02:41:21.630620 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-26 02:46:04.718659 | a750aa65-4f0e-476c-ac91-353582c4f3f0 ==============================
+[0m02:46:04.718659 [info ] [MainThread]: Running with dbt=1.4.6
+[0m02:46:04.723098 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/mrtexas/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:46:04.725132 [debug] [MainThread]: Tracking: tracking
+[0m02:46:04.732461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a03220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a00580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a03280>]}
+[0m02:46:04.735181 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/mrtexas/.dbt
+[0m02:46:04.737627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a03220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a03280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f52e7a012d0>]}
+[0m02:46:04.739764 [debug] [MainThread]: Flushing usage events
